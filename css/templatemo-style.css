@@ -417,20 +417,21 @@ footer a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  flex-wrap: wrap;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  gap: 8px;
+  flex-wrap: nowrap;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .topo-redes p {
   margin: 0;
   color: #fff;
   font-size: 15px;
-  line-height: 1.4;
+  line-height: 1.2;
+  white-space: nowrap;
 }
 .topo-redes-links {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 8px;
 }
 .topo-redes-links a {
@@ -444,6 +445,7 @@ footer a:hover {
   text-decoration: none;
   font-size: 14px;
   font-weight: 700;
+  white-space: nowrap;
 }
 .topo-redes-links a:hover,
 .topo-redes-links a:focus {
@@ -453,8 +455,38 @@ footer a:hover {
 }
 @media (max-width: 700px) {
   .topo-redes .container {
-    flex-direction: column;
-    align-items: flex-start;
+    padding-left: 8px;
+    padding-right: 8px;
+    gap: 6px;
+  }
+  .topo-redes p {
+    font-size: 12px;
+  }
+  .topo-redes-links a {
+    min-height: 40px;
+    padding: 6px 8px;
+    font-size: 12px;
+    gap: 4px;
+  }
+}
+@media (max-width: 480px) {
+  .topo-redes p {
+    font-size: 11px;
+  }
+  .topo-redes-links a span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  .topo-redes-links a {
+    min-width: 40px;
+    justify-content: center;
+    padding: 8px 10px;
   }
 }
 
