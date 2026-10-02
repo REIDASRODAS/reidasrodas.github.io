@@ -396,7 +396,8 @@ footer a:hover {
   background: #d54ab6;
   color: #fff;
 }
-.social-icons a.fa-instagram:before {
+.social-icons a.fa-instagram:before,
+.topo-redes .fa-instagram:before {
   content: "";
   display: inline-block;
   width: 1em;
@@ -405,6 +406,56 @@ footer a:hover {
   background-color: currentColor;
   -webkit-mask: url("instagram.svg") center / contain no-repeat;
   mask: url("instagram.svg") center / contain no-repeat;
+}
+
+.topo-redes {
+  background: #000;
+  color: #fff;
+  width: 100%;
+}
+.topo-redes .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.topo-redes p {
+  margin: 0;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.topo-redes-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.topo-redes-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 14px;
+  background: #303030;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+.topo-redes-links a:hover,
+.topo-redes-links a:focus {
+  background: #d54ab6;
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 700px) {
+  .topo-redes .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 /* media 960 */
