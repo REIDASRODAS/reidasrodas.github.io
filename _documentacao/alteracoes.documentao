@@ -3,3 +3,5 @@
 30/09/2026 — O site pronto da Rei das Rodas foi publicado no GitHub Pages, no repositório público REIDASRODAS/reidasrodas.github.io, no endereço https://reidasrodas.github.io. A conta entrou pelo Gmail e os arquivos da pasta foram enviados sem alterar o conteúdo do site.
 
 30/09/2026 — Incluído o arquivo CNAME com reidasrodas.com.br para o GitHub Pages aceitar o domínio. O DNS ainda está nos servidores ns1 e ns2.jorgeteixeira.com.br, apontando para a HostGator. A troca para os servidores do Registro.br fica com o titular do domínio. O e-mail (MX em mail.reidasrodas.com.br) continua na hospedagem antiga até ser movido.
+
+01/10/2026 — Incluída a medição do Google Analytics G-J6KKCY2H8R no cabeçalho de todas as páginas HTML do site Rei das Rodas, para a propriedade criada na conta Jorge Teixeira.
